@@ -29,7 +29,7 @@ CORDSTEXTFILE = dir_path + '\\playersCoordinates.txt'
 # in a plane or surface, calculates the homography between the two sets of coordinates using the OpenCV library, and returns the resulting 
 # homography matrix.
 
-def getHomographyMatrix( videoCoordinates = [[143, 300], [105, 257], [344, 254],[394, 240], [150, 233], [305,228], [13, 419], [70, 280], [189, 389],[183, 266], [269, 379], [233, 260], [345, 369], [284, 256], [479, 342], [380, 247]], planeCoordinate = [[282, 169],[455, 38],[334, 762],[432, 863], [619,162], [625, 755], [239, 13],[689, 13],[239, 311],[689, 311], [239, 462], [689, 462], [239, 611], [689, 611], [239, 914], [689, 914]]):
+def getHomographyMatrix( videoCoordinates = [[13, 419], [70, 280], [189, 389],[183, 266], [269, 379], [233, 260], [345, 369], [284, 256], [479, 342], [380, 247]], planeCoordinate = [[239, 13],[689, 13],[239, 311],[689, 311], [239, 462], [689, 462], [239, 611], [689, 611], [239, 914], [689, 914]]):
     
     #Converts coordinate arrays into numpy arrays
     videoCoordinatesNP = np.array(videoCoordinates)
