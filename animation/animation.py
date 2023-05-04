@@ -1,4 +1,4 @@
-#imports
+# Imports
 import pygame as p
 import pygame_gui
 import numpy as np
@@ -18,8 +18,8 @@ p.init()
 WIDTH = 930
 HEIGHT = 930
 MAX_FPS = 60
-dir_path = os.path.dirname(os.path.realpath(__file__))
-CORDSTEXTFILE = dir_path + '\\playersCoordinates.txt'
+DIRPATH = os.path.dirname(os.path.realpath(__file__))
+CORDSTEXTFILE = DIRPATH + '\\playersCoordinates.txt'
 
 
 
