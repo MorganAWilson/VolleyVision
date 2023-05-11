@@ -41,7 +41,7 @@ def cleanDataFile():
     contents = file.read()
 
     #delete everything until the first frame of all six players being detected and create a frames array
-    newContents = contents[470:]
+    newContents = contents[470:] #470 is the number of characters it is deleting from the dirty text file
     frames = newContents.splitlines()
 
     # the first frame has the position of all six players and I create an array of just there coordinates and ids
